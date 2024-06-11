@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Cor de fundo para a página */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px; /* Adiciona espaço acima do título */
+    color: #000000; /* Cor do texto */
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 15px; /* Aumenta o tamanho do padding */
+    width: 300px;
+    margin-right: 10px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+button {
+    padding: 15px 30px; /* Aumenta o tamanho do padding */
+    background-color: #ffc107; /* Cor amarela para o botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+button:hover {
+    background-color: #ffcd38; /* Cor mais clara ao passar o mouse */
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result-area {
+    width: 90%; /* Define a largura do textarea */
+    margin: 0 auto; /* Centraliza o textarea horizontalmente */
+    padding: 10px;
+    font-size: 70px; /* Aumenta o tamanho da fonte */
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px; /* Adiciona espaço acima do erro */
+}
+
